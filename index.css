@@ -1,0 +1,63 @@
+*
+{
+    margin:0;
+    padding:0px;
+    box-sizing: border-box;
+}
+.images img
+{
+    width:100px;
+    border:white 1px solid;
+    border-radius: 50%;
+    margin:10px;
+}
+img:hover
+{
+    cursor: pointer;
+}
+.images
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    background-color: rgb(7, 47, 82);
+}
+header{
+    text-align:center;
+    background-color: white;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+#result
+{
+    text-align: center;
+    color:wheat;
+    border:2px solid grey;
+    width:50%;
+    align-items: center;
+    margin:5px;
+}
+#clear-btn
+{
+   
+   display: flex;
+   justify-content: flex-end;
+}
+.greenglow
+{
+    border:2px solid green;
+    background-color: green;
+}
+.redglow
+{
+    border:2px solid red;
+    background-color: red;
+}
+.greyglow
+{
+    border:2px solid grey;
+}
